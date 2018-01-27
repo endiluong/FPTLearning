@@ -9,16 +9,15 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
     <link rel="stylesheet" type="text/css" href="css/indexcss.css">
+    <link rel="stylesheet" type="text/css" href="css/sharebt.css">
 </head>
 
 <body>
     <header>
         <section class="headid">
-            header
+            <img class="logow" src="pics/logow.png" />
         </section>
-        <section class="bigpics">
 
-        </section>
         <Section>
             <nav>
                 <ul class="ulm">
@@ -26,7 +25,21 @@
                         <a href="testasm.html">Home</a>
                     </li>
                     <li class="lim">
-                        <a href="#news">News</a>
+                        <a href="#news">Brands</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#"> Addidas</a>
+                            </li>
+                            <li>
+                                <a [href="#"> Nike</a>
+                            </li>
+                            <li>
+                                <a href="#"> New Balance</a>
+                            </li>
+                            <li>
+                                <a href="#"> Puma</a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="lim">
                         <a href="#contact">Contact</a>
@@ -42,8 +55,8 @@
     <hr>
 
     <!-- >>Name Here<< -->
-    <H3 class="dtlname">New Balance ABC</H3>
-    <br>
+    <H3 class="dtlname">New Balance 990</H3>
+    <hr>
     <main>
         <section>
             <aside>
@@ -67,42 +80,71 @@
         <section class="secdet">
             <!-- Chi tiet san pham: Khung view i frame blah blah -->
             <div class="iframe">
-                <iframe width=800px height=450px src="" name="a1" style="margin-left:5%; margin-top: 2%"></iframe>
+                <iframe width=800px height=450px src="pics/nb1.jpg" name="a1" style="margin-left:5%; margin-top: 2%"></iframe>
                 </iframe>
                 <div class="buytab">
-                    <div class="mninf">
-                        
-                            <p>this is sometext</p>
+                    <div class="mninftit">
+                        <p>New Balance 990</p>
                     </div>
                     <hr>
+                    <div class="mninf">
+                        <div>
+                            Code:
+                            <p style="color: black"> AAA001 </p>
+                        </div>
+                        <div class="price">
+                            Price:
+                            <p> 200$ </p>
+                        </div>
+                    </div>
                     <div class="szlst">
-                    <span style="font-size: 18px"><strong> Size(US):</strong> </span>
-                    <select>
-                        <option value="8">8</option>
-                        <option value="85">8.5</option>
-                        <option value="9">9</option>
-                        <option value="95">9.5</option>
-                        <option value="10">10</option>
-                        <option value="105">10.5</option>
-                    </select>
-                </div>
-                <button>
-                   <strong>Buy</strong> 
-                </button>
+                        <!-- Size selector -->
+                        <span style="font-size: 18px">
+                            <strong style="font-size:20px"> Size(US):</strong>
+                        </span>
+                        <select class="sltr">
+                            <option value="8">8</option>
+                            <option value="85">8.5</option>
+                            <option value="9">9</option>
+                            <option value="95">9.5</option>
+                            <option value="10">10</option>
+                            <option value="105">10.5</option>
+                        </select>
 
-            </div>
+                    </div>
+                    <button>
+                        <!-- buy button -->
+                        <strong>Buy</strong>
+                    </button>
+                    <div class="cell ">
+                        <div class="share-wrapper left">
+                            <div class="share-action icon-share"></div>
+                            <div class="share-container">
+                                <a class="share-btn tl icon-google-plus" href='#'></a>
+                                <a class="share-btn tr icon-twitter" href='#'></a>
+                                <a class="share-btn br icon-facebook" href='#'></a>
+                                <a class="share-btn bl icon-pinterest" href='#'></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
             <!-- info tab -->
             <div CLASS="infotab">
-                <P>this is some text</P>
-                <P>this is some text</P>
-                <P>this is some text</P>
-                <P>this is some text</P>
-                <P>this is some text</P>
-                <P>this is some text</P>
-                <P>this is some text</P>
-                <P>this is some text</P>
-                <P>this is some text</P>
+                <P> This is American craftsmanship. The latest in our Made in the USA series, the 990v4 restores the great performance</P>
+                <P>and iconic style of the 990’s 30-year-legacy. It’s the perfect combination of cushioning and stability, wrapped
+                    up in</P>
+                <P>a look that will last forever.</P>
+
+                <P>Manufactured in the US for over 75 years and representing a limited portion of our US sales. New Balance
+                    Made is a</P>
+                <P>premium collection that contains a domestic value of 70% or greater.</P>
+
+                <P>
+                    <b>Type:</b> Cushioning </P>
+                <P>
+                    <b>Weight:</b> 385 grams (13.6 oz)</P>
 
             </div>
 
@@ -115,7 +157,16 @@
     </main>
 
     <footer>
-        footer
+        <div class="footer1">
+            <p> Contact me: this is some blank text </p>
+            <p> Email me: this is some blank text</p>
+            <p> Call me: this is some blank text</p>
+        </div>
+        <div class="footer2">
+            <p> Add me: this is some blank text</p>
+            <p> Subscrice me: this is some blank text</p>
+            <b style="color:red"> More detail footer next time :) this is some blank text</b>
+        </div>
     </footer>
 
 
