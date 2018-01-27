@@ -1,0 +1,268 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    overflow: auto;
+    background: red;
+    top: 0px;
+
+}
+
+nav {
+    background-color: #333333;
+    line-height: 30px;
+    width: 100%;
+    border-bottom: 6px solid black;
+    display: inline-block;
+}
+
+main {
+    overflow: auto;
+    background-color: white;
+}
+
+article {
+    width: 85%;
+    height: 100%;
+    background: lightgray;
+    float: left;
+}
+
+aside {
+    min-height: 200px;
+    width: 15%;
+    background: white;
+    float: left;
+}
+/* 
+.Minititle {
+
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-size: 30px;
+    display: inline;
+    margin: 0 auto;
+} */
+
+
+
+.headid {
+    height: 100px;
+    background-color: green;
+}
+
+.sidebar li {
+    margin-left: 5px;
+
+    border-width: 2px 2px 1 px 2px;
+    background-color: aqua;
+    list-style-type: circle;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: lightgrey;
+    width: 1150px;
+    height: 100%;
+    overflow: auto;
+}
+
+.card {
+    float: left;
+    margin-left: 20px;
+    width: 22%;
+    background-color: white;
+
+}
+
+.sectionside {
+    height: 100%;
+}
+
+.bigpics {
+    min-height: 250px;
+    background-color:black;
+}
+
+.title {
+    width: 300px;
+    margin: 0 auto;
+    background-color: orange;
+
+
+}
+
+footer {
+    height: 50px;
+    background: grey;
+    clear: both;
+}
+
+.ulm {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    width: 500px;
+    margin: 0 auto;
+}
+    .sub-menu{
+        margin:0;
+        padding: 0px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px darkslategray;
+        list-style: none;         
+        width: 150px;
+        position: absolute;
+        display:none;
+        background-color: grey;
+    }
+    .sub-menu>li>a:hover{
+        background-color: white;
+        border-radius: 5px;
+        font-weight: bolder;
+        color: black;
+    }
+ul.ulm>li:hover>.sub-menu
+{
+    display:block;
+}
+.lim {
+    float: left;
+}   
+
+.lim a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.lim a:hover {
+    background-color: #111111;
+    font-size: 110%;
+}
+
+.sidebar {
+    list-style-type: disc;
+    padding: 0;
+    height: 100%;
+
+}
+.iframe{
+    margin: 0 auto;
+    float: left;
+    overflow-y: auto;
+    width: 100%;
+}
+.secdet{  
+    float: left;
+    width:85%;
+}
+.gallery{
+     margin-left: 15px;
+     margin-top: 5px;
+}
+.inftab{
+    min-width: 300px;
+    min-height: 500px;
+    float: right;
+    background-color:red;
+    border: 5px solid Black;
+    overflow: auto;
+    margin-right: 25px;
+}
+.logo{
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    background-color: red;  
+}
+.infotab
+{   margin-bottom: 5%;
+    margin-left: 5%;
+    width: 800px;
+    min-height: 200px;
+    background-color: lightgoldenrodyellow;
+    clear: both;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px grey   ;
+}
+.buytab
+{
+    width: 300px;
+    min-height: 300px;
+    float: right;
+    background-color:darkgray;
+    border: 1px solid darkgray;
+    overflow: auto;
+    margin-right: 40px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mninf{
+
+}
+.szlst{
+    position: relative;
+    padding: 0; 
+    margin-top: 50%;
+    margin-left:15%;
+    display: inline-block;
+    float:left;
+    width: 100%;
+    background-color: red;
+}
+.ul.vmenu
+ {
+    marign:0px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px darkgray;
+    list-style: none;
+ }
+ ul.vmenu>li>a{
+     display: block;
+     line-height: 30px;
+     border-bottom: 1px dotted darkgrey;
+     text-decoration: none;
+     font-variant: small-caps;
+     color: darkgray;
+     padding-left: 25px;
+ }
+  ul.vmenu>li>a:hover{
+      font-weight: bolder;
+      color:black;
+  }
+  .dtlname{
+      margin-left: 19%;
+      
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+  .prc{
+        margin-left: 10%;
+        font-size: 20px;
+        padding: 5px;
+        display: inline-block;
+        
+  } 
+
+
+  .prc p{
+      margin:0;
+      padding: 0;
+      text-align: center;
+      background-color:white
+  }
+  .prc img{
+      margin-top: 5px;
+      vertical-align: middle;
+  }
