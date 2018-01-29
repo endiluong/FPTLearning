@@ -103,6 +103,7 @@ aside {
         display: inline-block;
         margin-left: 2%;
         margin-top:0;
+        
     }
     .line{
         height: 2px;
@@ -255,19 +256,28 @@ ul.ulm>li:hover>.sub-menu
     height: 100%;
 
 }
+.framedt{
+    width: 800px;
+    height: 450px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
 .iframe{
     margin: 0 auto;
     float: left;
     overflow-y: auto;
     width: 100%;
+    
 }
 .secdet{  
     float: left;
     width:85%;
 }
 .gallery{
-     margin-left: 15px;
+     margin-left: 10px;
      margin-top: 5px;
+     
+
 }
 .inftab{
     min-width: 300px;
@@ -298,7 +308,7 @@ ul.ulm>li:hover>.sub-menu
 .buytab
 {   margin-top: 2%;
     margin-right: 15%;
-    width: 400px;
+    width: 200px;
     min-height: 300px;
     float: right;
     background-color:white;
