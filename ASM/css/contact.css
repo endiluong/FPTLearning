@@ -1,0 +1,21 @@
+.tab1{
+    width:600px;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.table.th {
+        margin-left: 5px;
+}
+.txtarea{
+    margin-left: 5px;
+}
+.buttonsubmit{
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding-right: 2px;
+}
+.buttonsubmit.input{
+    border-radius: 5px;
+}

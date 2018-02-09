@@ -1,0 +1,64 @@
+.tabmanage{
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+.tabmanage.td{
+    align: middle;
+}
+
+table, th, td{
+    border: 1px solid black;
+   
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+
+th{
+    text-align: middle;
+}        
+td{
+  
+    padding: 2px;
+    width: 160px;
+    vertical-align: center;
+}
+td>p{
+    color:blue;
+    width: 10p;
+    margin: 0 auto;
+    
+}
+.managetit{
+    width: 180px;
+    padding:0;
+}
+.managebutton{
+    width: 125px;
+    margin :0 auto;
+    height: 100%;
+    padding:0;
+
+}
+.managepic{
+
+}
+.updatebtn{
+    display: inline-block;
+    background-color: lightgreen;
+    width: 60px;
+    height: 30px ;
+    border-radius: 5px;
+    margin: 0;
+    font-weight: 700;
+}
+.delbtn{
+    display: inline-block;
+    background-color: lightsalmon;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    margin:0;
+    font-weight: 700;
+}
